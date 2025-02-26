@@ -1,6 +1,6 @@
 h1 .my-h1 {
-    text-align: center;
-    font-family: sans-serif;
+    text-align: center !important;
+    font-family: sans-serif !important;
     font-size: 100px !important;
     font-weight: 800 !important;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3) !important;
@@ -8,8 +8,8 @@ h1 .my-h1 {
 
 h2 .my-h2 {
     font-family:Georgia, 'Times New Roman', Times, serif !important;
-    color:rgb(48, 48, 48);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    color:rgb(48, 48, 48) !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3) !important;
 }
 
 body .my-body {
