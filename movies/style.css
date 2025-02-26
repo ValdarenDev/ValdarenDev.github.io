@@ -1,4 +1,4 @@
-h1 {
+.my-h1 {
     text-align: center;
     font-family: sans-serif;
     font-size: 100px;
@@ -6,12 +6,12 @@ h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-h2 {
+.my-h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:rgb(48, 48, 48);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-body {
+.my-body {
     background-color: antiquewhite;
 }

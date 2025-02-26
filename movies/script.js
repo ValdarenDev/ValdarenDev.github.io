@@ -69,7 +69,7 @@ for (let i = 0; i < movies.length; i += 3) {
 
         const h2 = document.createElement('h2');
         h2.innerText = movies[j];
-        h2.classList.add('my-4')
+        h2.classList.add('my-4', 'my-h2')
 
         col.appendChild(h2);
         row.appendChild(col);
