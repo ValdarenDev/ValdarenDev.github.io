@@ -3,14 +3,20 @@ var correctArray = [];
 var guesses = 0;
 var level = 0;
 
+$("div.btn").on("click", function (e) {
+  checkColor(e.target.id);
+});
+
 $(document).on("keydown", function () {
   if (gameStarted === false) {
     startGame();
   }
 });
 
-$("div.btn").on("click", function (e) {
-  checkColor(e.target.id);
+$(document).on("click", function () {
+  if (gameStarted === false) {
+    startGame();
+  }
 });
 
 function startGame() {
